@@ -1,9 +1,9 @@
 #ifndef GIROUETTE
 #define GIROUETTE
 
-#include "gpio/gpio.h"
-#include "clock/clock.h"
-#include "it/it.h"
+#include "gpio.h"
+#include "clock.h"
+#include "it.h"
 #include "stm32f10x.h"
 #include <math.h>
 

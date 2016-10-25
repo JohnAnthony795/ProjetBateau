@@ -332,7 +332,7 @@
             <File>
               <FileName>it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\pilotes\it\it.c</FilePath>
+              <FilePath>../../pilotes/it/it.c</FilePath>
             </File>
             <File>
               <FileName>it.h</FileName>
@@ -689,7 +689,7 @@
             <File>
               <FileName>it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\pilotes\it\it.c</FilePath>
+              <FilePath>../../pilotes/it/it.c</FilePath>
             </File>
             <File>
               <FileName>it.h</FileName>

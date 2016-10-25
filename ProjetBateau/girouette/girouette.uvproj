@@ -266,7 +266,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\pilotes\clock;.\src;..\..\pilotes</IncludePath>
+              <IncludePath>..\..\pilotes\clock;.\src;..\..\pilotes;..\pilotes</IncludePath>
             </VariousControls>
           </Carm>
           <Aarm>
@@ -300,44 +300,34 @@
           <GroupName>pilotes</GroupName>
           <Files>
             <File>
-              <FileName>gpio.c</FileName>
+              <FileName>adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/gpio/gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>Timer_1234.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../../pilotes/timer/Timer_1234.c</FilePath>
+              <FilePath>../pilotes/adc.c</FilePath>
             </File>
             <File>
               <FileName>clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/clock/clock.c</FilePath>
+              <FilePath>../pilotes/clock.c</FilePath>
             </File>
             <File>
-              <FileName>clock.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\clock\clock.h</FilePath>
-            </File>
-            <File>
-              <FileName>gpio.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\gpio\gpio.h</FilePath>
-            </File>
-            <File>
-              <FileName>Timer_1234.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\timer\Timer_1234.h</FilePath>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/gpio.c</FilePath>
             </File>
             <File>
               <FileName>it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/it/it.c</FilePath>
+              <FilePath>../pilotes/it.c</FilePath>
             </File>
             <File>
-              <FileName>it.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\it\it.h</FilePath>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_1234.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/Timer_1234.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -657,44 +647,34 @@
           <GroupName>pilotes</GroupName>
           <Files>
             <File>
-              <FileName>gpio.c</FileName>
+              <FileName>adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/gpio/gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>Timer_1234.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../../pilotes/timer/Timer_1234.c</FilePath>
+              <FilePath>../pilotes/adc.c</FilePath>
             </File>
             <File>
               <FileName>clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/clock/clock.c</FilePath>
+              <FilePath>../pilotes/clock.c</FilePath>
             </File>
             <File>
-              <FileName>clock.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\clock\clock.h</FilePath>
-            </File>
-            <File>
-              <FileName>gpio.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\gpio\gpio.h</FilePath>
-            </File>
-            <File>
-              <FileName>Timer_1234.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\timer\Timer_1234.h</FilePath>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/gpio.c</FilePath>
             </File>
             <File>
               <FileName>it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../../pilotes/it/it.c</FilePath>
+              <FilePath>../pilotes/it.c</FilePath>
             </File>
             <File>
-              <FileName>it.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\pilotes\it\it.h</FilePath>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_1234.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pilotes/Timer_1234.c</FilePath>
             </File>
           </Files>
         </Group>

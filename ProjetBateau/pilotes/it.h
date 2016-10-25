@@ -2,9 +2,9 @@
 #define IT_H
 
 #include "stm32f10x.h"
-#include "clock/clock.h"
-#include "gpio/gpio.h"
-#include "timer/Timer_1234.h"
+#include "clock.h"
+#include "gpio.h"
+#include "Timer_1234.h"
 
 extern void (*pFnc) (void);
 
